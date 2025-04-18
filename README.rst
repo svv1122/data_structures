@@ -24,10 +24,11 @@ Directory Structure
     ├── hashing
     ├── LICENSE
     ├── liner
-    │   └── array.rst
+    │   ├── array.rst
+    │   └── linked_list.rst
     ├── matrix
     ├── README.rst
     ├── set
     └── tree
 
-    8 directories, 3 files
+    8 directories, 4 files

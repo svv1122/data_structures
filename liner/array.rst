@@ -28,12 +28,14 @@ Implementation
 
 .. code:: rust
 
-    struct Array {
-        data: Box<[Option<i32>]>,
+    use std::fmt::Display;
+
+    struct Array<T> {
+        data: Box<[Option<T>]>,
         length: usize,
     }
 
-    impl Array {
+    impl<T: Clone> Array<T> {
         fn new(capacity: usize) -> Self {
             let vec = vec![None; capacity];
 
@@ -43,7 +45,11 @@ Implementation
             }
         }
 
-        fn insert(&mut self, value: i32) -> Result<(), &str> {
+        fn insert(&mut self, value: T) -> Result<(), &str> {
+            if self.length >= self.data.len() {
+                return Err("Array is full");
+            }
+
             for i in 0..self.data.len() {
                 if self.data[i].is_none() {
                     self.data[i] = Some(value);
@@ -69,15 +75,18 @@ Implementation
             }
         }
 
-        fn get(&self, index: usize) -> Option<i32> {
+        fn get(&self, index: usize) -> Option<&T> {
             if index >= self.data.len() {
                 return None;
             }
 
-            self.data[index]
+            self.data[index].as_ref()
         }
 
-        fn display(&self) {
+        fn display(&self)
+        where
+            T: Display,
+        {
             for item in &self.data[..] {
                 match item {
                     Some(v) => print!(" [{}] ", v),
