@@ -35,7 +35,7 @@ of efficient indexing, many basic operations—such as obtaining the last node o
 contains a given datum, or locating the place where a new node should be inserted—may require iterating through 
 most or all of the list elements.
 
-.. Reference: https://en.wikipedia.org/wiki/Linked_list
+Reference: `https://en.wikipedia.org/wiki/Linked_list`
 
 
 Application

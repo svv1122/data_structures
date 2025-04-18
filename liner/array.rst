@@ -12,7 +12,7 @@ known as an index tuple. An array is stored such that the position (memory addre
 **computed** from its index tuple by a mathematical formula.[1][2][3] The simplest type of data structure is a 
 linear array, also called a one-dimensional array.
 
-.. Reference: https://en.wikipedia.org/wiki/Array_(data_structure)
+Reference: `https://en.wikipedia.org/wiki/Array_(data_structure)`
 
 
 Application
