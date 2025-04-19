@@ -25,10 +25,11 @@ Directory Structure
     ├── LICENSE
     ├── liner
     │   ├── array.rst
-    │   └── linked_list.rst
+    │   ├── linked_list.rst
+    │   └── statck.rst
     ├── matrix
     ├── README.rst
     ├── set
     └── tree
 
-    8 directories, 4 files
+    8 directories, 5 files
