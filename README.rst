@@ -9,7 +9,7 @@ is usually chosen for efficient access to data.[1][2][3] More precisely, a data 
 is a collection of **data values**, the **relationships** among them, and the functions or 
 operations that can be applied to the data,[4] i.e., it is an algebraic structure about data. 
 
-Reference: `https://en.wikipedia.org/wiki/Data_structure`
+*Reference*: `https://en.wikipedia.org/wiki/Data_structure`
 
 Structure
 =========
