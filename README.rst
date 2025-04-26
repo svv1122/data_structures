@@ -4,14 +4,16 @@ Data Structure
 
 Description
 ===========
-In computer science, a data structure is a **data organization** and **storage format** that 
-is usually chosen for efficient access to data.[1][2][3] More precisely, a data structure 
-is a collection of **data values**, the **relationships** among them, and the functions or 
-operations that can be applied to the data,[4] i.e., it is an algebraic structure about data. 
-
-*Reference*: `https://en.wikipedia.org/wiki/Data_structure`
-
-*Note*: Implement all data structures in **C**
+In computer science (CS), a data structure comprises both **data storage or format** 
+and associated **operations**, typically selected to enable efficient data access. 
+Simultaneously, each element within a data structure exhibits interrelations or mutual 
+influence, whether in terms of **definition** or **underlying physical** representation. 
+Data structures can be classified into various categories, including linear, tree, set, 
+graph, hash, among others. From these classifications, numerous specialized algorithms 
+have been developed to fully exploit the unique characteristics of each type. To facilitate 
+a progressive understanding for the reader, I provide not only relevant code snippets and 
+specific literature references, but also vivid explanations and illustrative diagrams to 
+foster a more intuitive comprehension.
 
 Structure
 =========
