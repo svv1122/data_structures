@@ -8,12 +8,14 @@ It defines the relationship between the data and the operations that can be perf
 Data structures are fundamental to designing efficient algorithms and building complex software systems.
 
 Types of Data Structures:
+-------------------------
 - **Linear**: Elements are arranged in a sequence (e.g., Array, Linked List, Stack, Queue)
 - **Non-Linear**: Elements are arranged hierarchically or in a network (e.g., Tree, Graph)
 - **Static**: Fixed size, defined at compile time (e.g., Static Array)
 - **Dynamic**: Can grow or shrink at runtime (e.g., Linked List, Dynamic Array)
 
 Applications:
+-------------
 - Memory management
 - Data processing
 - Algorithm implementation
