@@ -19,7 +19,10 @@ foster a more intuitive comprehension.
         ├── composite
         ├── graph
         ├── hash
+        ├── LICENSE
         ├── linear
+        │   └── array
+        │       └── one_dimensional_array.rst
         ├── range
         ├── README.rst
         ├── set
@@ -27,4 +30,4 @@ foster a more intuitive comprehension.
         ├── string
         └── tree
 
-        11 directories, 1 file
+        12 directories, 3 files
