@@ -11,21 +11,21 @@ on a 64-bit machine. Then, because the virtual memory address ranges from 0x0000
 to 0x7fffffff, they are also stored physically in memory linearly, which leads 
 to efficient element access.
 
-+-----------------------------------------+
-| arr[0] | arr[1] | arr[2] | ... | arr[n] |
-+-----------------------------------------+
-  0x100    0x104    0x108          0x100 + 4*n
-
++--------+--------+--------+-----+-------------+
+| arr[0] | arr[1] | arr[2] | ... |   arr[n]    |
++--------+--------+--------+-----+-------------+
+| 0x100  | 0x104  | 0x108  |     | 0x100 + 4*n |
++--------+--------+--------+-----+-------------+
 
 Category
 ========
 One Dimensional Array
 ---------------------
-A simple linear array accessed with a singal index.
+* A simple linear array accessed with a singal index.
 
 Two Dimensional Array
 ---------------------
-A **matrix-like** array with rows and columns.
+* A **matrix-like** array with rows and columns.
 
 Dynamic Array
 -------------
@@ -59,6 +59,6 @@ memory.
 Application
 ===========
 - Implementation of Other Data Structures
-  Arrays form the basic for many other data structures, includeing: stack, queue, 
-  heap, hash table, graph and string.
+  *Arrays form the basic for many other data structures, includeing: stack, queue, 
+  *heap, hash table, graph and string.
 - Image Processing  
