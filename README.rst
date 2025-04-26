@@ -1,9 +1,6 @@
 ==============
 Data Structure
 ==============
-
-Description
-===========
 In computer science (CS), a data structure comprises both **data storage or format** 
 and associated **operations**, typically selected to enable efficient data access. 
 Simultaneously, each element within a data structure exhibits interrelations or mutual 
@@ -15,8 +12,6 @@ a progressive understanding for the reader, I provide not only relevant code sni
 specific literature references, but also vivid explanations and illustrative diagrams to 
 foster a more intuitive comprehension.
 
-Structure
-=========
 .. code:: none
 
         .
