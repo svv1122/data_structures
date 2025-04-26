@@ -29,36 +29,39 @@ Two Dimensional Array
 
 Dynamic Array
 -------------
-An array that resizee the capacity at **runtime**, such as Pythin's 'list'.
+* An array that resizee the capacity at **runtime**, such as Pythin's 'list'.
 
 Dense Array
 -----------
-A multi-dimensional array where all elements are stored in contiguous memory
+* A multi-dimensional array where all elements are stored in contiguous memory
 locations, with **no** empty or unused space.
 
 Sparse Array
 ------------
-An array where **most of** the elements are empty(e.g., zero or null), and only 
+* An array where **most of** the elements are empty(e.g., zero or null), and only 
 non-empty elements are stored to save memory.
 
 Circular Array
 --------------
-An array with a fixed size that **wraps around** when elements are accessed beyond 
+* An array with a fixed size that **wraps around** when elements are accessed beyond 
 the last index, often used for implementing circular queues.
 
 Jagged Array
 ------------
-An array of arrays where each sub-array can have **different** size, creating a 
+* An array of arrays where each sub-array can have **different** size, creating a 
 non-rectangular structure.
 
 Bit Array
 ---------
-An array of bits (0s or 1s) used to efficiently store boolean values or flags in
+* An array of bits (0s or 1s) used to efficiently store boolean values or flags in
 memory.
 
 Application
 ===========
-- Implementation of Other Data Structures
-  *Arrays form the basic for many other data structures, includeing: stack, queue, 
-  *heap, hash table, graph and string.
-- Image Processing  
+Implementation of Other Data Structures
+---------------------------------------
+* Arrays form the basic for many other data structures, includeing: stack, queue, heap, 
+  hash table, graph and string.
+
+Image Processing
+----------------
