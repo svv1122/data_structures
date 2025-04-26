@@ -34,27 +34,27 @@ Dynamic Array
 Dense Array
 -----------
 * A multi-dimensional array where all elements are stored in contiguous memory
-locations, with **no** empty or unused space.
+  locations, with **no** empty or unused space.
 
 Sparse Array
 ------------
 * An array where **most of** the elements are empty(e.g., zero or null), and only 
-non-empty elements are stored to save memory.
+  non-empty elements are stored to save memory.
 
 Circular Array
 --------------
 * An array with a fixed size that **wraps around** when elements are accessed beyond 
-the last index, often used for implementing circular queues.
+  the last index, often used for implementing circular queues.
 
 Jagged Array
 ------------
 * An array of arrays where each sub-array can have **different** size, creating a 
-non-rectangular structure.
+  non-rectangular structure.
 
 Bit Array
 ---------
 * An array of bits (0s or 1s) used to efficiently store boolean values or flags in
-memory.
+  memory.
 
 Application
 ===========
@@ -62,6 +62,5 @@ Implementation of Other Data Structures
 ---------------------------------------
 * Arrays form the basic for many other data structures, includeing: stack, queue, heap, 
   hash table, graph and string.
-
 Image Processing
 ----------------
