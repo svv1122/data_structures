@@ -14,7 +14,7 @@ to efficient element access.
 +--------+--------+--------+-----+-------------+
 | arr[0] | arr[1] | arr[2] | ... |   arr[n]    |
 +--------+--------+--------+-----+-------------+
-| 0x100  | 0x104  | 0x108  |     | 0x100 + 4*n |
+| 0x100  | 0x104  | 0x108  | ... | 0x100 + 4*n |
 +--------+--------+--------+-----+-------------+
 
 Category
@@ -58,9 +58,6 @@ Bit Array
 
 Application
 ===========
-Implementation of Other Data Structures
----------------------------------------
-* Arrays form the basic for many other data structures, includeing: stack, queue, heap, 
-  hash table, graph and string.
-Image Processing
-----------------
+- Implementation of Other Data Structures
+- Image Processing
+
