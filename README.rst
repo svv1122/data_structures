@@ -33,7 +33,8 @@ Choosing the right data structure can greatly improve the efficiency and clarity
         ├── LICENSE
         ├── linear
         │   └── array
-        │       └── one_dimensional_array.rst
+        │       ├── one_dimensional_array.rst
+        │       └── two_dimensional_array.rst
         ├── range
         ├── README.rst
         ├── set
@@ -41,4 +42,4 @@ Choosing the right data structure can greatly improve the efficiency and clarity
         ├── string
         └── tree
 
-        12 directories, 3 files
+        12 directories, 4 files
