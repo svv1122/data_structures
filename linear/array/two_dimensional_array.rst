@@ -1,5 +1,5 @@
 =====================
-Two Dimensional Array
+Two-Dimensional Array
 =====================
 
 A two-dimensional array is a data structure that stores elements in a grid format, organized by rows and columns.

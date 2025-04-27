@@ -1,5 +1,5 @@
 =====================
-One Dimensional Array
+One-Dimensional Array
 =====================
 A one-dimensional array is a linear data structure that stores a sequence of elements in a single row.
 Each element is stored at a specific index, starting from zero, and can be accessed directly using its index.
