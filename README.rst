@@ -22,8 +22,7 @@ Applications:
 - File systems and databases
 
 Choosing the right data structure can greatly improve the efficiency and clarity of a program.
-
-.. code:: none
+::
 
         .
         ├── bit
