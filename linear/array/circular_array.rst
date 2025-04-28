@@ -15,7 +15,7 @@ Key Characteristics
   that reuses memory, such as in circular queues or buffering streaming data.
 - **Indexing:** Index calculations often use modular arithmetic:
   
-  .. code-block:: python
+  .. code-block:: text
 
     index = (start + offset) % size
 
@@ -29,8 +29,7 @@ Common Applications
 Example
 -------
 Suppose we have an array of size 5:
-
-.. code-block:: text
+::
 
     [0, 1, 2, 3, 4]
 
@@ -39,7 +38,7 @@ If we are at index 4 and move forward by 1, instead of going to index 5
 
 Visualization
 -------------
-.. code-block:: text
+::
 
     0 -> 1 -> 2 -> 3 -> 4
     ^                   |
