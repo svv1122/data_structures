@@ -39,10 +39,11 @@ Common implementations of dynamic arrays include:
 - Java's ``ArrayList``
 - C++'s ``std::vector``
 
-Usage Example in Python::
+Usage Example in Python
+.. code:: python
 
-    arr = []
-    arr.append(10)
-    arr.append(20)
-    arr.append(30)
-    print(arr[1])  # Output: 20
+        arr = []
+        arr.append(10)
+        arr.append(20)
+        arr.append(30)
+        print(arr[1])  # Output: 20
