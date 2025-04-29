@@ -14,8 +14,7 @@ Key Characteristics
 - **Efficient Use of Space:** Ideal for problems requiring a buffer 
   that reuses memory, such as in circular queues or buffering streaming data.
 - **Indexing:** Index calculations often use modular arithmetic:
-  
-  .. code-block:: text
+  ::
 
     index = (start + offset) % size
 
