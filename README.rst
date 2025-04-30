@@ -34,6 +34,7 @@ Choosing the right data structure can greatly improve the efficiency and clarity
         │   └── array
         │       ├── circular_array.rst
         │       ├── dynamic_array.rst
+        │       ├── jagged_array.rst
         │       ├── one_dimensional_array.rst
         │       └── two_dimensional_array.rst
         ├── range
@@ -43,4 +44,4 @@ Choosing the right data structure can greatly improve the efficiency and clarity
         ├── string
         └── tree
 
-        12 directories, 6 files
+        12 directories, 7 files
