@@ -31,12 +31,16 @@ Choosing the right data structure can greatly improve the efficiency and clarity
         ├── hash
         ├── LICENSE
         ├── linear
-        │   └── array
-        │       ├── circular_array.rst
-        │       ├── dynamic_array.rst
-        │       ├── jagged_array.rst
-        │       ├── one_dimensional_array.rst
-        │       └── two_dimensional_array.rst
+        │   ├── array
+        │   │   ├── circular_array.rst
+        │   │   ├── dense_array.rst
+        │   │   ├── dynamic_array.rst
+        │   │   ├── jagged_array.rst
+        │   │   ├── multi_dimensional_array.rst
+        │   │   ├── one_dimensional_array.rst
+        │   │   ├── sparse_array.rst
+        │   │   └── two_dimensional_array.rst
+        │   └── linked_list
         ├── range
         ├── README.rst
         ├── set
@@ -44,4 +48,4 @@ Choosing the right data structure can greatly improve the efficiency and clarity
         ├── string
         └── tree
 
-        12 directories, 7 files
+        13 directories, 10 files
