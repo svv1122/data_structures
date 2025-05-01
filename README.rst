@@ -41,6 +41,11 @@ Choosing the right data structure can greatly improve the efficiency and clarity
         │   │   ├── sparse_array.rst
         │   │   └── two_dimensional_array.rst
         │   └── linked_list
+        │       ├── circular_doubly_linked_list.rst
+        │       ├── circular_linked_list.rst
+        │       ├── doubly_linked_list.rst
+        │       ├── singly_linked_list.rst
+        │       └── skip_list.rst
         ├── range
         ├── README.rst
         ├── set
@@ -48,4 +53,4 @@ Choosing the right data structure can greatly improve the efficiency and clarity
         ├── string
         └── tree
 
-        13 directories, 10 files
+        13 directories, 15 files
