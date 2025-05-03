@@ -46,6 +46,11 @@ Choosing the right data structure can greatly improve the efficiency and clarity
         │   │   ├── doubly_linked_list.rst
         │   │   ├── singly_linked_list.rst
         │   │   └── skip_list.rst
+        │   ├── queue
+        │   │   ├── circular_queue.rst
+        │   │   ├── double_end_queue.rst
+        │   │   ├── linear_queue.rst
+        │   │   └── priority_queue.rst
         │   └── stack
         │       ├── array_based_stack.rst
         │       ├── deque_based_stack.rst
@@ -58,4 +63,4 @@ Choosing the right data structure can greatly improve the efficiency and clarity
         ├── string
         └── tree
 
-        14 directories, 19 files
+        15 directories, 23 files
